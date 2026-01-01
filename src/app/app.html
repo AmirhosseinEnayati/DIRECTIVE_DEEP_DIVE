@@ -1,5 +1,3 @@
 <a href="https://angular.dev" appSafeLink="my-app-link">Anuglar Document</a>
 
-<ng-template appAuth="admin">
-    <p>Only admin see this.</p> 
-</ng-template>
+<p *appAuth="'admin'">Only admin see this.</p>
